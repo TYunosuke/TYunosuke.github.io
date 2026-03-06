@@ -1,8 +1,8 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
-baseURL: https://hugo-themes.github.io/toha-example-site/
+baseURL: https://tyunosuke.github.io/
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Yu Tang | Homepage"
 
 # Use Hugo modules to add theme
 module:
@@ -24,12 +24,12 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Yu Tang | Homepage"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+  ja:
+    languageCode: ja
+    languageName: 日本語
+    title: "唐羽"
     weight: 2
 # default language for the content
 defaultContentLanguage: en
@@ -71,8 +71,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
-  # Default branch of your Git repo
+  gitRepo: https://github.com/TYunosuke/TYunosuke.github.io
   gitBranch: main
 
   # Configure the number of section title visible in the top navbar
@@ -118,7 +117,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -156,21 +155,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enable: true
-      services:
-        # Google Analytics
-        google:
-          id: G-H4LBG7NDFZ
-        # # CounterDev
-        # counterDev:
-        #   id: <your counterdev id>
-        # # GoatCounter
-        # goatCounter:
-        #   code: <your goat counter code>
-        # # Matomo / Piwik
-        # matomo:
-        #   instance: matomo.example.com
-        #   siteId: 1 # Or any other number
+      enable: false
 
     # Enable Support
     support:
