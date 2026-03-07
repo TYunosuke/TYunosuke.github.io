@@ -69,3 +69,8 @@ skills:
   logo: /images/sections/skills/c++.png
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
   categories: ["basic", "language"]
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Proficient in Python programming. Used for AI development, data processing, automation, and problem solving."
+  categories: ["basic", "language"]

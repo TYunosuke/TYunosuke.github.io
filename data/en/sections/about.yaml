@@ -8,54 +8,55 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: PhD Student in Robotics / AI
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: The University of Osaka
+  url: "https://www.osaka-u.ac.jp/ja"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
-# a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
-
-# your social links
+summary: 'I am an interdisciplinary researcher and project-driven problem solver with a strong focus on robotics, computer vision, and AI applications. My work combines technical development with real-world problem solving, especially in areas where intelligent systems interact with complex physical environments. I enjoy building and improving systems across perception, modeling, and automation, and I am particularly interested in turning research ideas into practical solutions. Beyond technical skills, I bring strengths in cross-functional collaboration, international teamwork, and multilingual communication, which help me work effectively across disciplines, cultures, and research environments.'# your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "ty981126@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://github.com/TYunosuke"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+#- name: Stackoverflow
+#  icon: "fab fa-stack-overflow"
+#  url: "#"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/yu-tang-057004362/"
 
 - name: Twitter
   icon: "fab fa-twitter"
-  url: "#"
+  url: "https://x.com/TYunosuke_"
 
 - name: Facebook
   icon: "fab fa-facebook"
-  url: "#"
+  url: "https://www.facebook.com/profile.php?id=61555653784195"
 
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/tyunosuke/"
 
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
+#- name: Mastadon
+#  icon: "fab fa-mastodon"
+#  url: "#"
+#  rel: "me noopener"
+
+#- name: ResearchGate
+#  icon: "fab fa-researchgate"
+#  url: "https://www.researchgate.net/profile/john-doe"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
@@ -73,28 +74,28 @@ badges:
   badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-
-- type: certification
   name: Artificial Intelligence and Machine Learning
   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
+- type: certification
+  name: Japanese-Language Proficiency Test N1
+  url: "https://www.jlpt.jp/about/index.html"
+  badge: "/images/jlpt_badge.png"
+
 - type: soft-skill-indicator
-  name: Leadership
+  name: Chinese
+  percentage: 100
+  color: yellow
+
+- type: soft-skill-indicator
+  name: English
   percentage: 85
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
+  name: Japanese
   percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
   color: orange
 
 # you can also provide color code instead of the color name
