@@ -16,7 +16,7 @@ degrees:
   institution:
     name: ABC University of Technology
     url: "#"
-    logo: /images/sections/education/tech_college.png
+    logo: /images/sections/education/OU.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
@@ -30,75 +30,67 @@ degrees:
     url: "#"
   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
     url: "#"
-- name: B.Sc. in Computer Science & Engineering
+- name: B.Eng. in Optoelectronic Information Science and Engineering
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2017-2022
   institution:
-    name: University of XYZ
+    name: Beijing Institute of Technology
     url: "#"
-    logo: /images/sections/education/university.jpg
+    logo: /images/sections/education/bit.png
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  customSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
-  institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/science_college.png
+    # darkLogo: /images/sections/education/bit.jpg
   grade: #(optional)
     scale: GPA
-    achieved: 5
-    outOf: 5
+    achieved: 3.0
+    outOf: 4.0
+  takenCourses: #(optional)
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: Optoelectronic Information Science and Engineering
+    - name: Digital Image Processing
+    - name: Signal and Systems
+    - name: Optical Engineering Fundamentals
+    - name: Machine Vision
+    - name: Electronic Circuits
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+  - Vice Minister of the Sports Department, Student Union
+  - Class Publicity Committee Member
+  - Member of the Basketball Team
+  - Goalkeeper of the Football Team
+  customSections: #(optional)
+    - name: Major
+      content: School of Optics and Photonics, Beijing Institute of Technology
+#- name: Higher Secondary School Certificate
+#  icon: fa-university
+#  timeframe: 2010-2012
+#  institution:
+#    name: MST College of Science
+#    url: "#"
+#    logo: /images/sections/education/science_college.png
+#    # Can optionally show a different logo for dark theme
+#    # darkLogo: /images/sections/education/science_college.png
+#  grade: #(optional)
+#    scale: GPA
+#    achieved: 5
+#    outOf: 5
+#  extracurricularActivities: #(optional)
+#  - In vitae facilisis est, eget porta sem.
+#  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+#  - Duis sed massa feugiat, ornare justo et, aliquam est.
+#  - Pellentesque ut fringilla magna.
 - name: Secondary School Certificate
   icon: fa-school
-  timeframe: 2005-2010
+  timeframe: 2010-2017
   institution:
-    name: JK School of Science
+    name: Beijing Jingshan School
+    logo: /images/sections/education/jingshan.png
   grade: #(optional)
     scale: GPA
     achieved: 4.5
     outOf: 5
+  extracurricularActivities: #(optional)
+  - Vice Minister of the Sports Department, High School Student Union
+  - Class Publicity Committee Member
+  - Member of the High School Basketball Team
+  - Goalkeeper of the High School Football Team
