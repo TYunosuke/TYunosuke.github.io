@@ -10,26 +10,34 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: Ph.D. Student in Systems Innovation Engineering
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2025-Present
   institution:
-    name: ABC University of Technology
-    url: "#"
+    name: The University of Osaka
+    url: "https://www.osaka-u.ac.jp/"
     logo: /images/sections/education/OU.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
+  customSections:
+    - name: Graduate School
+      content: Graduate School of Engineering Science
+    - name: Program
+      content: Systems Innovation Engineering
+
+- name: M.Eng. in Systems Innovation Engineering
+  icon: fa-graduation-cap
+  timeframe: 2022-2025
+  institution:
+    name: The University of Osaka
+    url: "https://www.osaka-u.ac.jp/"
+    logo: /images/sections/education/OU.png
+  customSections:
+    - name: Graduate School
+      content: Graduate School of Engineering Science
+    - name: Program
+      content: Systems Innovation Engineering
+    - name: Research
+      content: Robotics Vision
+
 - name: B.Eng. in Optoelectronic Information Science and Engineering
   icon: fa-graduation-cap
   timeframe: 2017-2022
