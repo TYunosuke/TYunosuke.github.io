@@ -13,64 +13,81 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Programming
+  filter: "programming"
+- name: AI & ML
+  filter: "ai"
+- name: Vision
+  filter: "vision"
+- name: Robotics
+  filter: "robotics"
+- name: Tools
+  filter: "tools"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Primary language for my research. Proficient in Python for deep learning, computer vision, robot control, data processing, and automation, with libraries such as NumPy and OpenCV."
+  categories: ["programming", "ai"]
+  url: "https://www.python.org/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: Deep Learning
+  logo: /images/sections/skills/deep-learning.svg
+  summary: "Design and train neural networks with PyTorch for perception tasks such as classification, segmentation, and rack-slot occupancy prediction. Experienced in applying foundation models (e.g., SAM2) for zero-shot segmentation."
+  categories: ["ai", "vision"]
+  url: "https://pytorch.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: Computer Vision
+  logo: /images/sections/skills/computer-vision.svg
+  summary: "Image processing and machine vision with OpenCV, from classical methods to deep-learning-based detection and segmentation. Built automatic data collection, clustering, and labeling pipelines for robot perception."
+  categories: ["vision", "ai"]
+  url: "https://opencv.org/"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+- name: Robotic Manipulation
+  logo: /images/sections/skills/robotic-manipulation.svg
+  summary: "Developing vision-guided pick-and-place systems on robot arms (e.g., UFactory xArm Lite6) for laboratory automation, integrating perception, planning, and control on real hardware."
+  categories: ["robotics"]
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: Motion Planning
+  logo: /images/sections/skills/motion-planning.svg
+  summary: "Planning collision-free arm motions for pick-and-place and rearrangement tasks, and combining task-level planners with motion-level planning in a closed loop for robust execution and replanning."
+  categories: ["robotics"]
+
+- name: Reinforcement Learning
+  logo: /images/sections/skills/reinforcement-learning.svg
+  summary: "Applying deep reinforcement learning (e.g., D3QN with distributed training) to task-level planning problems such as multi-object rearrangement, validated in both simulation and real-world experiments."
+  categories: ["ai", "robotics"]
+
+- name: 3D Perception
+  logo: /images/sections/skills/rgbd-sensing.svg
+  summary: "Working with RGB-D cameras such as Intel RealSense and point cloud data for object localization, camera calibration, and robot-mounted sensing in manipulation tasks."
+  categories: ["vision", "robotics"]
+
+- name: "Signal & Image Processing"
+  logo: /images/sections/skills/signal-processing.svg
+  summary: "Strong fundamentals in signals and systems, digital image processing, and optical engineering from my optoelectronics background, which underpin my work on imaging and perception systems."
+  categories: ["vision"]
+
+- name: C
+  logo: /images/sections/skills/c.svg
+  summary: "Solid foundation in C from my engineering studies. Used for coursework, microcontroller and hardware-related programming, and algorithm practice."
+  categories: ["programming"]
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  summary: "Comfortable working in Linux environments for development and experiments: shell scripting, setting up deep learning environments, and running robot software."
+  categories: ["tools"]
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
+  summary: "Version control for research code and collaborative development on GitHub, including branching workflows and code review."
+  categories: ["tools"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
-
-- name: Python
-  logo: /images/sections/skills/python.png
-  summary: "Proficient in Python programming. Used for AI development, data processing, automation, and problem solving."
-  categories: ["basic", "language"]
+- name: LaTeX
+  logo: /images/sections/skills/latex.svg
+  summary: "Writing and typesetting research papers and technical documents with LaTeX, with experience through the peer-review process of robotics journals such as RA-L and IJRR."
+  categories: ["tools"]
+  url: "https://www.latex-project.org/"
