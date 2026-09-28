@@ -1,73 +1,53 @@
 # section information
 section:
-  name: Experiences
+  name: Research Experience
   id: experiences
   enable: true
   weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  # hideTitle: true
 
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
+    name: Osaka University Graduate School of Dentistry
+    url: "https://www.dent.osaka-u.ac.jp/en/index.html"
+    location: Suita, Osaka, Japan
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Joint research between Harada Laboratory (Graduate School of Engineering Science) and the Department of Oral and Maxillofacial Surgery (Dr. Emiko Isomura) on robotics for oral and maxillofacial surgery.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Ph.D. Student Researcher (Joint Research Project)
+    start: Apr 2025
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Developing a robotic system that automatically shapes titanium fixation plates for mandibular angle split osteotomy (MASO), a step that surgeons currently perform by hand with bending pliers.
+    - Combining force sensing, vision, and learning so that the robot can reach target plate shapes despite material spring-back.
+    - Manuscript under review.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: H.U. Group Holdings, Inc.
+    url: "https://www.hugp.com/en/"
+    location: Tokyo, Japan
+    overview: Joint research between Harada Laboratory (Osaka University) and H.U. Group, a leading Japanese healthcare and clinical laboratory testing group, on robotic automation of laboratory workflows.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Master's Student Researcher (Joint Research Project)
+    start: Apr 2024
+    end: Mar 2025
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Developed a zero-shot pipeline that automatically collects and labels RGB data to recognize test tube types in racks without manually prepared training datasets. First-author paper in [IEEE RA-L 2025](https://ieeexplore.ieee.org/document/11067950), presented at ICRA 2026 ([demo video](https://www.youtube.com/watch?v=d1bhhW-p6P4)).
+    - Contributed to a closed-loop framework that combines reinforcement learning and motion planning for in-rack test tube rearrangement. Co-author of the paper in [IJRR 2026](https://journals.sagepub.com/doi/10.1177/02783649261430363).
+    - Built and evaluated the systems on a UFactory xArm Lite6 robot with a RealSense D405 camera in a real laboratory setup.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: RIKEN Center for Biosystems Dynamics Research (BDR)
+    url: "https://www.bdr.riken.jp/en/"
+    location: Kobe, Japan
+    overview: RIKEN is Japan's largest comprehensive research institution for the natural sciences. BDR studies the dynamics of living systems, from molecules and cells to organisms.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Research Trainee
+    start: Apr 2023
+    end: Mar 2024
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Participated in a collaborative research project on the directed differentiation of alveolar type 2 (AT2) cells.
+    - Responsible for the image analysis part of the project, processing and quantifying cell-culture images.
