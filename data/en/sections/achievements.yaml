@@ -8,17 +8,18 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-# Your achievements achievements
+# Your achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+- title: RSJ 2026 Oral Presentation
+  image: /images/sections/achievements/rsj2026-talk.jpg
+  summary: Gave an oral presentation on our latest work on robotic metal plate shaping at the 44th Annual Conference of the Robotics Society of Japan (RSJ 2026), held at Kanazawa University in September 2026.
+
+- title: ICRA 2026 Poster Presentation
+  image: /images/sections/achievements/icra2026-poster.jpg
+  summary: Presented our IEEE RA-L paper "Zero-Shot Recognition of Test Tube Types by Automatically Collecting and Labeling RGB Data" at the IEEE International Conference on Robotics and Automation (ICRA 2026) in Vienna, Austria.
+  url: "https://ieeexplore.ieee.org/document/11067950"
+
+- title: JLPT N1
+  image: /images/sections/achievements/jlpt-n1.png
+  summary: Passed Level N1, the highest level of the Japanese-Language Proficiency Test (JLPT), in July 2021.
+  url: "https://www.jlpt.jp/e/about/levelsummary.html"
