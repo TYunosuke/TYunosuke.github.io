@@ -19,11 +19,30 @@ buttons:
 
 # your publications
 publications:
+- title: Robotic Test Tube Rearrangement Using Combined Reinforcement Learning and Motion Planning in a Closed Loop
+  publishedIn:
+    name: The International Journal of Robotics Research (IJRR)
+    date: March 2026
+    url: "https://journals.sagepub.com/home/ijr"
+  authors:
+  - name: Hao Chen
+  - name: Yu Tang
+  - name: Weiwei Wan
+  - name: Masaki Matsushita
+  - name: Jun Takahashi
+  - name: Takeyuki Kotaka
+  - name: Kensuke Harada
+  paper:
+    summary: A combined reinforcement learning (RL) and motion planning framework is proposed in this paper to address a multi-class in-rack test tube rearrangement problem. The RL works at the task level to plan a sequence of swap actions while ignoring the details of robotic motion. The motion planning works at the motion level to plan detailed robotic pick-and-place motion based on the action sequences obtained at the task level. The task level and motion level are combined in a closed loop with the help of a condition set maintained for each rack slot, which allows the framework to perform replanning efficiently and thus effectively find solutions in the presence of failures. In particular, for RL, the framework leverages a distributed deep Q learning structure with the dueling double deep Q network (D3QN) to learn policies from training data amplified by an A*-based post-processing technique. The D3QN and distributed learning help increase training efficiency. The post-processing helps salvage failed action sequences and remove redundancy, thus making training data more effective. Simulations and real-world studies are carried out in the experiments to understand the performance of the proposed framework. The results verify the advantages of the RL and post-processing, and show that the closed-loop combination improves robustness. The framework is ready to incorporate various sensory feedbacks, as demonstrated by real-world studies.
+    url: "https://journals.sagepub.com/doi/10.1177/02783649261430363"
+  categories: ["robotics"]
+  tags: ["Reinforcement Learning", "Motion Planning", "Robotic Manipulation"]
+
 - title: Zero-Shot Recognition of Test Tube Types by Automatically Collecting and Labeling RGB Data
   publishedIn:
-    name: IEEE Robotics and Automation Letters (RA-L), presented at ICRA 2026
-    date: 2026
-    url: "#"
+    name: IEEE Robotics and Automation Letters (RA-L), vol. 10, no. 8, pp. 8276-8283 (presented at ICRA 2026)
+    date: August 2025
+    url: "https://www.ieee-ras.org/publications/ra-l"
   authors:
   - name: Yu Tang
   - name: Weiwei Wan
