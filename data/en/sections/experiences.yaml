@@ -17,7 +17,7 @@ experiences:
     # company overview
     overview: Joint research between Harada Laboratory (Graduate School of Engineering Science) and the Department of Oral and Maxillofacial Surgery (Dr. Emiko Isomura) on robotics for oral and maxillofacial surgery.
   positions:
-  - designation: Ph.D. Student Researcher (Joint Research Project)
+  - designation: Ph.D. Student
     start: Apr 2025
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     responsibilities:
@@ -31,7 +31,7 @@ experiences:
     location: Tokyo, Japan
     overview: Joint research between Harada Laboratory (Osaka University) and H.U. Group, a leading Japanese healthcare and clinical laboratory testing group, on robotic automation of laboratory workflows.
   positions:
-  - designation: Master's Student Researcher (Joint Research Project)
+  - designation: Master's Student
     start: Apr 2024
     end: Mar 2025
     responsibilities:
