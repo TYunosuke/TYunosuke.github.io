@@ -16,8 +16,3 @@ achievements:
   image: /images/sections/achievements/icra2026-poster.jpg
   summary: "在奥地利维也纳举行的 IEEE 国际机器人与自动化会议（ICRA 2026）上展示了 IEEE RA-L 论文《Zero-Shot Recognition of Test Tube Types by Automatically Collecting and Labeling RGB Data》。"
   url: "https://ieeexplore.ieee.org/document/11067950"
-
-- title: 日本语能力测试 N1
-  image: /images/sections/achievements/jlpt-n1.png
-  summary: "2021 年 7 月通过日本语能力测试（JLPT）的最高等级 N1。"
-  url: "https://www.jlpt.jp/e/about/levelsummary.html"

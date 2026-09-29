@@ -18,8 +18,3 @@ achievements:
   image: /images/sections/achievements/icra2026-poster.jpg
   summary: Presented our IEEE RA-L paper "Zero-Shot Recognition of Test Tube Types by Automatically Collecting and Labeling RGB Data" at the IEEE International Conference on Robotics and Automation (ICRA 2026) in Vienna, Austria.
   url: "https://ieeexplore.ieee.org/document/11067950"
-
-- title: JLPT N1
-  image: /images/sections/achievements/jlpt-n1.png
-  summary: Passed Level N1, the highest level of the Japanese-Language Proficiency Test (JLPT), in July 2021.
-  url: "https://www.jlpt.jp/e/about/levelsummary.html"
