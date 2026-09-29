@@ -1,0 +1,23 @@
+# 基本情報
+name: "唐 羽"
+# テンプレートは「greeting + nickname」の順で表示するため、nickname に「です」を含めています
+nickname: "唐 羽です"
+
+# 名前の前に表示される挨拶
+greeting: "はじめまして、"
+
+# アバター画像
+image: "images/author/Yu Tang.png"
+
+# フッターに表示する連絡先
+contactInfo:
+  email: "ty981126@gmail.com"
+  github: TYunosuke
+  linkedin: yu-tang-057004362
+
+# トップページに表示する短い紹介
+summary:
+  - ロボティクス専攻の博士課程学生
+  - 機械学習とロボットシステムを研究
+  - コンピュータビジョンに関心
+  - 国際的な共同研究を歓迎します

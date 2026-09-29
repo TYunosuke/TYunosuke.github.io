@@ -1,0 +1,9 @@
+# Overrides for a few strings in the Toha theme's zh-cn translation.
+[at]
+other = "@"
+
+[more]
+other = "更多"
+
+[publications]
+other = "论文"

@@ -1,0 +1,13 @@
+# 版权信息
+copyright: © 2026 唐羽
+
+# 网站描述（供搜索引擎使用）
+description: 唐羽（Yu Tang）的个人主页。大阪大学博士生，研究方向为机器人、计算机视觉与 AI。
+
+# OpenGraph 设置
+openGraph:
+  title: 唐羽 | 个人主页
+  type: website
+  description: 唐羽（Yu Tang）的个人主页。大阪大学博士生，研究方向为机器人、计算机视觉与 AI。
+  image: images/author/Yu Tang.png
+  url: https://tyunosuke.github.io/zh-cn/

@@ -12,13 +12,15 @@ designation: PhD Student in Robotics / AI
 # your company information
 company:
   name: The University of Osaka
-  url: "https://www.osaka-u.ac.jp/ja"
+  url: "https://www.osaka-u.ac.jp/en"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
-summary: 'I am an interdisciplinary researcher and project-driven problem solver with a strong focus on robotics, computer vision, and AI applications. My work combines technical development with real-world problem solving, especially in areas where intelligent systems interact with complex physical environments. I enjoy building and improving systems across perception, modeling, and automation, and I am particularly interested in turning research ideas into practical solutions. Beyond technical skills, I bring strengths in cross-functional collaboration, international teamwork, and multilingual communication, which help me work effectively across disciplines, cultures, and research environments.'# your social links
+summary: 'I am an interdisciplinary researcher and project-driven problem solver with a strong focus on robotics, computer vision, and AI applications. My work combines technical development with real-world problem solving, especially in areas where intelligent systems interact with complex physical environments. I enjoy building and improving systems across perception, modeling, and automation, and I am particularly interested in turning research ideas into practical solutions. Beyond technical skills, I bring strengths in cross-functional collaboration, international teamwork, and multilingual communication, which help me work effectively across disciplines, cultures, and research environments.'
+
+# your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
@@ -68,16 +70,6 @@ resourceLinks:
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
-
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
-
 - type: certification
   name: Japanese-Language Proficiency Test N1
   url: "https://www.jlpt.jp/about/index.html"

@@ -1,0 +1,56 @@
+# セクション情報
+section:
+  name: 論文
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+
+# フィルターボタン
+buttons:
+- name: すべて
+  filter: "all"
+- name: ロボットマニピュレーション
+  filter: "robotics"
+- name: コンピュータビジョン
+  filter: "computer-vision"
+
+# 論文
+publications:
+- title: Robotic Test Tube Rearrangement Using Combined Reinforcement Learning and Motion Planning in a Closed Loop
+  publishedIn:
+    name: The International Journal of Robotics Research (IJRR)
+    date: 2026年3月
+    url: "https://journals.sagepub.com/home/ijr"
+  authors:
+  - name: Hao Chen
+  - name: Yu Tang
+  - name: Weiwei Wan
+  - name: Masaki Matsushita
+  - name: Jun Takahashi
+  - name: Takeyuki Kotaka
+  - name: Kensuke Harada
+  paper:
+    summary: "多種類の試験管をラック内で再配置する問題に対し、強化学習（RL）と動作計画を組み合わせたフレームワークを提案しています。RL はタスクレベルで入れ替え動作の系列を計画し、動作計画はそれに基づいてロボットのピックアンドプレース動作を詳細に生成します。両者はラックの各穴に対して維持される条件集合を介して閉ループで結合され、失敗が生じても効率的に再計画できます。RL には分散型の深層 Q 学習と Dueling Double DQN（D3QN）を用い、A* ベースの後処理で学習データを増強・整理することで、学習効率とデータの有効性を高めています。シミュレーションと実機実験により、RL と後処理の利点、および閉ループ結合によるロバスト性の向上を確認しました。"
+    url: "https://journals.sagepub.com/doi/10.1177/02783649261430363"
+  categories: ["robotics"]
+  tags: ["強化学習", "動作計画", "ロボットマニピュレーション"]
+
+- title: Zero-Shot Recognition of Test Tube Types by Automatically Collecting and Labeling RGB Data
+  publishedIn:
+    name: IEEE Robotics and Automation Letters (RA-L), vol. 10, no. 8, pp. 8276-8283（ICRA 2026 で発表）
+    date: 2025年8月
+    url: "https://www.ieee-ras.org/publications/ra-l"
+  authors:
+  - name: Yu Tang
+  - name: Weiwei Wan
+  - name: Hao Chen
+  - name: Masaki Matsushita
+  - name: Jun Takahashi
+  - name: Takeyuki Kotaka
+  - name: Kensuke Harada
+  paper:
+    summary: "実験室のラックに置かれた試験管の種類を自動で検出・認識するゼロショットのパイプラインを提案しています。ラック穴の占有予測、自動セグメンテーション、クラスタリング、ラベリングを組み合わせることで、人手で用意した学習データセットを不要にします。ニューラルネットワークがラック穴の占有状態を予測し、SAM2 によるセグメンテーションと HDBSCAN によるクラスタリングで試験管のキャップを自動分類します。未知の種類の試験管に出会うと認識ライブラリを逐次拡張するため、明示的な学習データなしで柔軟なロボットマニピュレーションが可能です。RealSense D405 カメラと UFactory xArm Lite6 ロボットを用いた実験で、実際の検査室環境におけるロバストな性能を示しました。"
+    url: "https://ieeexplore.ieee.org/document/11067950"
+  categories: ["robotics", "computer-vision"]
+  tags: ["試験管検出", "ロボットマニピュレーション", "深層学習"]

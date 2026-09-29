@@ -1,0 +1,49 @@
+# セクション情報
+section:
+  name: 研究経歴
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+# 研究経歴
+experiences:
+- company:
+    name: 大阪大学大学院歯学研究科
+    url: "https://www.dent.osaka-u.ac.jp/"
+    location: 大阪府吹田市
+    overview: "原田研究室（基礎工学研究科）と顎顔面口腔外科学講座（磯村恵美子先生）による、口腔外科向けロボティクスの共同研究。"
+  positions:
+  - designation: 博士課程学生
+    start: 2025年4月
+    responsibilities:
+    - "下顎角の骨切り手術（MASO: Mandibular Angle Split Osteotomy）で用いるチタン製固定プレートを、ロボットで自動的に成形するシステムを開発しています。現在は外科医がプレート曲げ用のプライヤーを使って手作業で行っている工程です。"
+    - "力覚センシング、ビジョン、学習を組み合わせ、材料のスプリングバックがあっても目標のプレート形状に到達できるようにしています。"
+    - "論文投稿中。"
+
+- company:
+    name: H.U.グループホールディングス株式会社
+    url: "https://www.hugp.com/"
+    location: 東京都
+    overview: "原田研究室（大阪大学）と、日本を代表する臨床検査・ヘルスケア企業グループである H.U.グループとの、検査室ワークフローのロボット自動化に関する共同研究。"
+  positions:
+  - designation: 修士課程学生
+    start: 2024年4月
+    end: 2025年3月
+    responsibilities:
+    - "RGB データを自動で収集・ラベリングし、人手で用意した学習データなしにラック内の試験管の種類を認識するゼロショットのパイプラインを開発。筆頭著者として [IEEE RA-L 2025](https://ieeexplore.ieee.org/document/11067950) に採録され、ICRA 2026 で発表しました（[デモ動画](https://www.youtube.com/watch?v=d1bhhW-p6P4)）。"
+    - "強化学習と動作計画を組み合わせた、ラック内の試験管を再配置するための閉ループフレームワークに貢献。共著者として [IJRR 2026](https://journals.sagepub.com/doi/10.1177/02783649261430363) に掲載されました。"
+    - "UFactory xArm Lite6 ロボットと RealSense D405 カメラを用いて、実際の検査室環境でシステムを構築・評価しました。"
+
+- company:
+    name: 理化学研究所 生命機能科学研究センター（BDR）
+    url: "https://www.bdr.riken.jp/"
+    location: 兵庫県神戸市
+    overview: "理化学研究所は日本最大の自然科学の総合研究機関です。BDR では、分子・細胞から個体に至る生命システムのダイナミクスを研究しています。"
+  positions:
+  - designation: 研修生
+    start: 2023年4月
+    end: 2024年3月
+    responsibilities:
+    - "II 型肺胞上皮細胞（AT2 細胞）の分化誘導に関する共同研究プロジェクトに参加しました。"
+    - "プロジェクトの画像解析パートを担当し、細胞培養画像の処理と定量化を行いました。"

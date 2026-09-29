@@ -1,0 +1,83 @@
+# 板块信息
+section:
+  name: 教育经历
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: 博士研究生（系统创成工学）
+  icon: fa-microscope
+  timeframe: 2025年 - 至今
+  institution:
+    name: 大阪大学
+    url: "https://www.osaka-u.ac.jp/en"
+    logo: /images/sections/education/OU.png
+  customSections:
+    - name: 研究科
+      content: 基础工学研究科
+    - name: 专业
+      content: 系统创成工学
+
+- name: 工学硕士（系统创成工学）
+  icon: fa-graduation-cap
+  timeframe: 2022年 - 2025年
+  institution:
+    name: 大阪大学
+    url: "https://www.osaka-u.ac.jp/en"
+    logo: /images/sections/education/OU.png
+  customSections:
+    - name: 研究科
+      content: 基础工学研究科
+    - name: 专业
+      content: 系统创成工学
+    - name: 研究方向
+      content: 机器人视觉
+
+- name: 工学学士（光电信息科学与工程）
+  icon: fa-graduation-cap
+  timeframe: 2017年 - 2022年
+  institution:
+    name: 北京理工大学
+    url: "https://www.bit.edu.cn/"
+    logo: /images/sections/education/bit.png
+  grade:
+    scale: GPA
+    achieved: 3.0
+    outOf: 4.0
+  takenCourses:
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: 光电信息科学与工程
+    - name: 数字图像处理
+    - name: 信号与系统
+    - name: 光学工程基础
+    - name: 机器视觉
+    - name: 电子电路
+  extracurricularActivities:
+  - 学生会体育部副部长
+  - 班级宣传委员
+  - 篮球队队员
+  - 足球队守门员
+  customSections:
+    - name: 学院
+      content: 北京理工大学光电学院
+
+- name: 中学
+  icon: fa-school
+  timeframe: 2010年 - 2017年
+  institution:
+    name: 北京景山学校
+    logo: /images/sections/education/jingshan.png
+  grade:
+    scale: GPA
+    achieved: 4.5
+    outOf: 5
+  extracurricularActivities:
+  - 高中学生会体育部副部长
+  - 班级宣传委员
+  - 高中篮球队队员
+  - 高中足球队守门员

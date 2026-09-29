@@ -1,0 +1,90 @@
+# セクション情報
+section:
+  name: スキル
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+
+# フィルターボタン
+buttons:
+- name: すべて
+  filter: "all"
+- name: プログラミング
+  filter: "programming"
+- name: AI・機械学習
+  filter: "ai"
+- name: ビジョン
+  filter: "vision"
+- name: ロボティクス
+  filter: "robotics"
+- name: ツール
+  filter: "tools"
+
+# スキル
+skills:
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "研究で最もよく使う主要言語です。深層学習、コンピュータビジョン、ロボット制御、データ処理、自動化に、NumPy や OpenCV などのライブラリとあわせて活用しています。"
+  categories: ["programming", "ai"]
+  url: "https://www.python.org/"
+
+- name: 深層学習
+  logo: /images/sections/skills/deep-learning.svg
+  summary: "PyTorch を用いて、分類・セグメンテーション・ラック穴の占有予測などの認識タスク向けにニューラルネットワークを設計・学習しています。SAM2 などの基盤モデルをゼロショットのセグメンテーションに応用した経験があります。"
+  categories: ["ai", "vision"]
+  url: "https://pytorch.org/"
+
+- name: コンピュータビジョン
+  logo: /images/sections/skills/computer-vision.svg
+  summary: "OpenCV による画像処理とマシンビジョン。古典的な手法から深層学習ベースの検出・セグメンテーションまで扱い、ロボットの認識のためにデータの自動収集・クラスタリング・ラベリングを行うパイプラインを構築しました。"
+  categories: ["vision", "ai"]
+  url: "https://opencv.org/"
+
+- name: ロボットマニピュレーション
+  logo: /images/sections/skills/robotic-manipulation.svg
+  summary: "実験室の自動化に向けて、ロボットアーム（UFactory xArm Lite6 など）上で視覚誘導型のピックアンドプレースシステムを開発し、認識・計画・制御を実機で統合しています。"
+  categories: ["robotics"]
+
+- name: 動作計画
+  logo: /images/sections/skills/motion-planning.svg
+  summary: "ピックアンドプレースや再配置タスクのために、衝突のないアーム動作を計画します。タスクレベルのプランナと動作レベルの計画を閉ループで組み合わせ、ロバストな実行と再計画を実現しています。"
+  categories: ["robotics"]
+
+- name: 強化学習
+  logo: /images/sections/skills/reinforcement-learning.svg
+  summary: "D3QN や分散学習などの深層強化学習を、多物体の再配置といったタスクレベルの計画問題に適用し、シミュレーションと実機実験の両方で検証しています。"
+  categories: ["ai", "robotics"]
+
+- name: 3D 認識
+  logo: /images/sections/skills/rgbd-sensing.svg
+  summary: "Intel RealSense などの RGB-D カメラと点群データを用いて、マニピュレーションのための物体位置推定、カメラキャリブレーション、ロボット搭載センシングに取り組んでいます。"
+  categories: ["vision", "robotics"]
+
+- name: 信号・画像処理
+  logo: /images/sections/skills/signal-processing.svg
+  summary: "光電子工学のバックグラウンドで培った信号とシステム、ディジタル画像処理、光学工学の基礎が、イメージングと認識システムの研究を支えています。"
+  categories: ["vision"]
+
+- name: C
+  logo: /images/sections/skills/c.svg
+  summary: "工学系の学部教育で身につけた C 言語の基礎。授業課題、マイコンやハードウェア関連のプログラミング、アルゴリズムの練習に使ってきました。"
+  categories: ["programming"]
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "開発と実験のための Linux 環境に慣れています。シェルスクリプトの作成、深層学習環境の構築、ロボットソフトウェアの実行などを行っています。"
+  categories: ["tools"]
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "研究コードのバージョン管理と GitHub での共同開発。ブランチ運用やコードレビューの経験があります。"
+  categories: ["tools"]
+  url: "https://git-scm.com/"
+
+- name: LaTeX
+  logo: /images/sections/skills/latex.svg
+  summary: "LaTeX による論文・技術文書の執筆と組版。RA-L や IJRR などのロボティクス系ジャーナルの査読プロセスを経験しています。"
+  categories: ["tools"]
+  url: "https://www.latex-project.org/"

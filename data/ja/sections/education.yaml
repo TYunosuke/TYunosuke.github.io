@@ -1,0 +1,83 @@
+# セクション情報
+section:
+  name: 学歴
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: 博士後期課程 システム創成専攻
+  icon: fa-microscope
+  timeframe: 2025年 - 現在
+  institution:
+    name: 大阪大学
+    url: "https://www.osaka-u.ac.jp/ja"
+    logo: /images/sections/education/OU.png
+  customSections:
+    - name: 研究科
+      content: 基礎工学研究科
+    - name: 専攻
+      content: システム創成専攻
+
+- name: 修士（工学） システム創成専攻
+  icon: fa-graduation-cap
+  timeframe: 2022年 - 2025年
+  institution:
+    name: 大阪大学
+    url: "https://www.osaka-u.ac.jp/ja"
+    logo: /images/sections/education/OU.png
+  customSections:
+    - name: 研究科
+      content: 基礎工学研究科
+    - name: 専攻
+      content: システム創成専攻
+    - name: 研究テーマ
+      content: ロボットビジョン
+
+- name: 学士（工学） 光電子情報科学・工学
+  icon: fa-graduation-cap
+  timeframe: 2017年 - 2022年
+  institution:
+    name: 北京理工大学
+    url: "https://www.bit.edu.cn/"
+    logo: /images/sections/education/bit.png
+  grade:
+    scale: GPA
+    achieved: 3.0
+    outOf: 4.0
+  takenCourses:
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: 光電子情報科学・工学
+    - name: ディジタル画像処理
+    - name: 信号とシステム
+    - name: 光学工学の基礎
+    - name: マシンビジョン
+    - name: 電子回路
+  extracurricularActivities:
+  - 学生会 体育部 副部長
+  - クラス広報委員
+  - バスケットボール部 部員
+  - サッカー部 ゴールキーパー
+  customSections:
+    - name: 学院
+      content: 北京理工大学 光電学院（School of Optics and Photonics）
+
+- name: 中学校・高等学校
+  icon: fa-school
+  timeframe: 2010年 - 2017年
+  institution:
+    name: 北京景山学校
+    logo: /images/sections/education/jingshan.png
+  grade:
+    scale: GPA
+    achieved: 4.5
+    outOf: 5
+  extracurricularActivities:
+  - 高校生徒会 体育部 副部長
+  - クラス広報委員
+  - 高校バスケットボール部 部員
+  - 高校サッカー部 ゴールキーパー

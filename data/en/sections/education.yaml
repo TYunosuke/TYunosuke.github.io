@@ -43,7 +43,7 @@ degrees:
   timeframe: 2017-2022
   institution:
     name: Beijing Institute of Technology
-    url: "#"
+    url: "https://www.bit.edu.cn/"
     logo: /images/sections/education/bit.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/bit.jpg

@@ -1,0 +1,90 @@
+# 板块信息
+section:
+  name: 技能
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+
+# 筛选按钮
+buttons:
+- name: 全部
+  filter: "all"
+- name: 编程
+  filter: "programming"
+- name: AI 与机器学习
+  filter: "ai"
+- name: 视觉
+  filter: "vision"
+- name: 机器人
+  filter: "robotics"
+- name: 工具
+  filter: "tools"
+
+# 技能
+skills:
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "科研中最主要的编程语言。熟练使用 Python 进行深度学习、计算机视觉、机器人控制、数据处理和自动化，常用 NumPy、OpenCV 等库。"
+  categories: ["programming", "ai"]
+  url: "https://www.python.org/"
+
+- name: 深度学习
+  logo: /images/sections/skills/deep-learning.svg
+  summary: "使用 PyTorch 设计并训练神经网络，处理分类、分割、试管架孔位占用预测等感知任务；有将 SAM2 等基础模型用于零样本分割的经验。"
+  categories: ["ai", "vision"]
+  url: "https://pytorch.org/"
+
+- name: 计算机视觉
+  logo: /images/sections/skills/computer-vision.svg
+  summary: "基于 OpenCV 的图像处理与机器视觉，涵盖从传统方法到基于深度学习的检测与分割；为机器人感知搭建过自动数据采集、聚类与标注的流程。"
+  categories: ["vision", "ai"]
+  url: "https://opencv.org/"
+
+- name: 机器人操作
+  logo: /images/sections/skills/robotic-manipulation.svg
+  summary: "面向实验室自动化，在 UFactory xArm Lite6 等机械臂上开发视觉引导的抓取放置系统，并在真实硬件上集成感知、规划与控制。"
+  categories: ["robotics"]
+
+- name: 运动规划
+  logo: /images/sections/skills/motion-planning.svg
+  summary: "为抓取放置和重排任务规划无碰撞的机械臂运动，并把任务级规划器与运动级规划闭环结合，实现稳健的执行与重规划。"
+  categories: ["robotics"]
+
+- name: 强化学习
+  logo: /images/sections/skills/reinforcement-learning.svg
+  summary: "将 D3QN、分布式训练等深度强化学习方法应用于多物体重排等任务级规划问题，并在仿真和真实实验中完成验证。"
+  categories: ["ai", "robotics"]
+
+- name: 3D 感知
+  logo: /images/sections/skills/rgbd-sensing.svg
+  summary: "使用 Intel RealSense 等 RGB-D 相机和点云数据，进行面向机器人操作的物体定位、相机标定和机器人搭载式感知。"
+  categories: ["vision", "robotics"]
+
+- name: 信号与图像处理
+  logo: /images/sections/skills/signal-processing.svg
+  summary: "光电专业背景打下的信号与系统、数字图像处理和光学工程基础，支撑着我在成像与感知系统方面的工作。"
+  categories: ["vision"]
+
+- name: C
+  logo: /images/sections/skills/c.svg
+  summary: "工科本科阶段打下的 C 语言基础，用于课程作业、单片机与硬件相关编程以及算法练习。"
+  categories: ["programming"]
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "熟悉在 Linux 环境下开发和做实验：编写 shell 脚本、搭建深度学习环境、运行机器人软件。"
+  categories: ["tools"]
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "用于科研代码的版本管理和 GitHub 上的协作开发，熟悉分支工作流和代码评审。"
+  categories: ["tools"]
+  url: "https://git-scm.com/"
+
+- name: LaTeX
+  logo: /images/sections/skills/latex.svg
+  summary: "使用 LaTeX 撰写和排版论文与技术文档，经历过 RA-L、IJRR 等机器人领域期刊的同行评审流程。"
+  categories: ["tools"]
+  url: "https://www.latex-project.org/"

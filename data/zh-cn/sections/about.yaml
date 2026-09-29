@@ -1,0 +1,70 @@
+# 板块信息
+section:
+  name: 关于我
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# 身份
+designation: 博士研究生（机器人 / AI）
+# 所属机构
+company:
+  name: 大阪大学
+  url: "https://www.osaka-u.ac.jp/en"
+
+summary: "我是一名跨学科的研究者，专注于机器人、计算机视觉和 AI 应用，习惯以项目为驱动去解决实际问题。我的工作把技术开发和真实场景中的问题结合起来，尤其关注智能系统与复杂物理环境交互的场合。我喜欢构建和改进涵盖感知、建模与自动化的系统，也特别希望把研究想法转化为可落地的解决方案。技术能力之外，我在跨领域协作、国际团队合作和多语言沟通方面也有优势，能够在不同学科、文化和研究环境之间高效地开展工作。"
+
+# 社交链接
+socialLinks:
+- name: 邮箱
+  icon: "fas fa-envelope"
+  url: "ty981126@gmail.com"
+
+- name: GitHub
+  icon: "fab fa-github"
+  url: "https://github.com/TYunosuke"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/yu-tang-057004362/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://x.com/TYunosuke_"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/profile.php?id=61555653784195"
+
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/tyunosuke/"
+
+# 资料链接
+resourceLinks:
+- title: "我的简历"
+  url: "files/resume.pdf"
+
+# 徽章
+badges:
+- type: certification
+  name: 日本语能力测试 N1
+  url: "https://www.jlpt.jp/about/index.html"
+  badge: "/images/jlpt_badge.png"
+
+- type: soft-skill-indicator
+  name: 中文
+  percentage: 100
+  color: yellow
+
+- type: soft-skill-indicator
+  name: 英语
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: 日语
+  percentage: 90
+  color: orange

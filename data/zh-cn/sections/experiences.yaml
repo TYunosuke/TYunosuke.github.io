@@ -1,0 +1,49 @@
+# 板块信息
+section:
+  name: 研究经历
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+# 研究经历
+experiences:
+- company:
+    name: 大阪大学大学院牙学研究科
+    url: "https://www.dent.osaka-u.ac.jp/en/index.html"
+    location: 日本大阪府吹田市
+    overview: "原田研究室（基础工学研究科）与颌面口腔外科学讲座（矶村惠美子老师）在口腔外科机器人方向的联合研究。"
+  positions:
+  - designation: 博士生
+    start: 2025年4月
+    responsibilities:
+    - "开发一套机器人系统，用于自动弯折下颌角劈开截骨术（MASO）中使用的钛固定板；这一步骤目前由外科医生用弯板钳手工完成。"
+    - "结合力觉感知、视觉与学习，使机器人在材料存在回弹的情况下仍能达到目标板形。"
+    - "论文投稿中。"
+
+- company:
+    name: H.U. Group Holdings, Inc.
+    url: "https://www.hugp.com/en/"
+    location: 日本东京
+    overview: "原田研究室（大阪大学）与日本领先的临床检验和医疗健康集团 H.U. Group 在实验室流程机器人自动化方向的联合研究。"
+  positions:
+  - designation: 硕士生
+    start: 2024年4月
+    end: 2025年3月
+    responsibilities:
+    - "开发了一套零样本识别流程：自动采集并标注 RGB 数据，无需人工准备训练集即可识别试管架中试管的类型。以第一作者发表于 [IEEE RA-L 2025](https://ieeexplore.ieee.org/document/11067950)，并在 ICRA 2026 上展示（[演示视频](https://www.youtube.com/watch?v=d1bhhW-p6P4)）。"
+    - "参与开发结合强化学习与运动规划的闭环框架，用于试管架内试管的重排；作为共同作者发表于 [IJRR 2026](https://journals.sagepub.com/doi/10.1177/02783649261430363)。"
+    - "在真实实验室环境中，基于 UFactory xArm Lite6 机械臂和 RealSense D405 相机搭建并评估了系统。"
+
+- company:
+    name: 理化学研究所 生命机能科学研究中心（RIKEN BDR）
+    url: "https://www.bdr.riken.jp/en/"
+    location: 日本兵库县神户市
+    overview: "理化学研究所（RIKEN）是日本最大的自然科学综合研究机构，BDR 研究从分子、细胞到个体各个尺度上生命系统的动态过程。"
+  positions:
+  - designation: 研修生（Research Trainee）
+    start: 2023年4月
+    end: 2024年3月
+    responsibilities:
+    - "参与关于 II 型肺泡上皮细胞（AT2 细胞）定向分化的合作研究项目。"
+    - "负责项目中的图像分析部分，对细胞培养图像进行处理和定量分析。"

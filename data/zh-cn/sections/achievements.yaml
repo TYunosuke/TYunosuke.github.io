@@ -1,0 +1,23 @@
+# 板块信息
+section:
+  name: 荣誉与成果
+  id: achievements
+  enable: true
+  weight: 10
+  showOnNavbar: true
+
+# 荣誉与成果
+achievements:
+- title: RSJ 2026 口头报告
+  image: /images/sections/achievements/rsj2026-talk.jpg
+  summary: "在第 44 届日本机器人学会学术讲演会（RSJ 2026，金泽大学，2026 年 9 月）上，就机器人金属板成形的最新研究做了口头报告。"
+
+- title: ICRA 2026 海报展示
+  image: /images/sections/achievements/icra2026-poster.jpg
+  summary: "在奥地利维也纳举行的 IEEE 国际机器人与自动化会议（ICRA 2026）上展示了 IEEE RA-L 论文《Zero-Shot Recognition of Test Tube Types by Automatically Collecting and Labeling RGB Data》。"
+  url: "https://ieeexplore.ieee.org/document/11067950"
+
+- title: 日本语能力测试 N1
+  image: /images/sections/achievements/jlpt-n1.png
+  summary: "2021 年 7 月通过日本语能力测试（JLPT）的最高等级 N1。"
+  url: "https://www.jlpt.jp/e/about/levelsummary.html"

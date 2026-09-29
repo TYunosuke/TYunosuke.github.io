@@ -1,0 +1,131 @@
+# Japanese UI strings. The Toha theme ships this language as "jp.toml"; this project uses the
+# standard language key "ja", so the full set of strings is provided here (with a few fixes).
+[home]
+other = "ホーム"
+
+[posts]
+other = "記事"
+
+[toc_heading]
+other = "目次"
+
+[tags]
+other = "タグ"
+
+[categories]
+other = "カテゴリ"
+
+[at]
+other = "@"
+
+[resume]
+other = "履歴書"
+
+[navigation]
+other = "メニュー"
+
+[contact_me]
+other = "連絡先"
+
+[email]
+other = "メール"
+
+[phone]
+other = "電話番号"
+
+[newsletter_text]
+other = "メールで最新情報を受け取る"
+
+[newsletter_input_placeholder]
+other = "メールアドレスを入力"
+
+[newsletter_warning]
+other = "メールアドレスを入力すると、このウェブサイトのニュースレターを受け取ることに同意したことになります。"
+
+[submit]
+other = "登録"
+
+[hugoAttributionText]
+other = "Powered by"
+
+[prev]
+other = "前へ"
+
+[next]
+other = "次へ"
+
+[share_on]
+other = "共有"
+
+[improve_this_page]
+other = "このページを改善する"
+
+[out_of]
+other = "/"
+
+[publications]
+other = "論文"
+
+[taken_courses]
+other = "履修科目"
+
+[course_name]
+other = "科目名"
+
+[total_credit]
+other = "総単位数"
+
+[obtained_credit]
+other = "取得単位数"
+
+[extracurricular_activities]
+other = "課外活動"
+
+[show_more]
+other = "もっと見る"
+
+[show_less]
+other = "閉じる"
+
+[responsibilities]
+other = "担当内容:"
+
+[present]
+other = "現在"
+
+[comments_javascript]
+other = "コメントを表示するには JavaScript を有効にしてください"
+
+[comments_by]
+other = "コメント提供:"
+
+[read]
+other = "読む"
+
+[project_star]
+other = "Star"
+
+[project_details]
+other = "詳細"
+
+[err_404]
+other = "お探しのページは見つかりませんでした。"
+
+[more]
+other = "その他"
+
+[view_certificate]
+other = "証明書を見る"
+
+[notes]
+other = "ノート"
+
+[disclaimer_text]
+other = "免責事項"
+
+[search]
+other = "検索"
+
+[minute]
+one = "分"
+other = "分"

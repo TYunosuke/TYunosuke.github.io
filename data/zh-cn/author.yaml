@@ -1,0 +1,22 @@
+# 基本信息
+name: "唐羽"
+nickname: "唐羽"
+
+# 显示在名字前面的问候语
+greeting: "你好，我是"
+
+# 头像
+image: "images/author/Yu Tang.png"
+
+# 页脚显示的联系方式
+contactInfo:
+  email: "ty981126@gmail.com"
+  github: TYunosuke
+  linkedin: yu-tang-057004362
+
+# 首页的简短介绍
+summary:
+  - 机器人方向博士生
+  - 研究机器学习与机器人系统
+  - 对计算机视觉感兴趣
+  - 欢迎国际科研合作

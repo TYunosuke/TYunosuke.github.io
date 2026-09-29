@@ -26,11 +26,16 @@ languages:
     languageName: English
     title: "Yu Tang | Homepage"
     weight: 1
-#  ja:
-#    languageCode: ja
-#    languageName: 日本語
-#    title: "唐羽"
-#    weight: 2
+  ja:
+    languageCode: ja
+    languageName: 日本語
+    title: "唐 羽 | ホームページ"
+    weight: 2
+  zh-cn:
+    languageCode: zh-CN
+    languageName: 简体中文
+    title: "唐羽 | 个人主页"
+    weight: 3
 # default language for the content
 defaultContentLanguage: en
 
@@ -184,10 +189,12 @@ params:
     # Specify whether to show flag in the language selector. Default is true.
     flags:
       enable: true
-      # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      # flag-icons uses ISO country codes, so map language codes that differ from them.
+      flagOverwrites:
+        - languageCode: ja
+          countryCode: jp
+        - languageCode: zh-cn
+          countryCode: cn
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
@@ -292,4 +299,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false

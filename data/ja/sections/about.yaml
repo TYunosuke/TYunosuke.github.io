@@ -1,0 +1,70 @@
+# セクション情報
+section:
+  name: 自己紹介
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# 肩書き
+designation: 博士課程学生（ロボティクス / AI）
+# 所属
+company:
+  name: 大阪大学
+  url: "https://www.osaka-u.ac.jp/ja"
+
+summary: "ロボティクス、コンピュータビジョン、AI の応用を軸に、分野をまたいで研究に取り組んでいます。技術開発と現実の課題解決を結びつけること、特に知能システムが複雑な物理環境と関わる場面に関心があります。認識・モデリング・自動化にわたるシステムを構築し改良していくことが好きで、研究のアイデアを実用的なソリューションへつなげることを目指しています。技術面に加えて、分野横断的な協働、国際的なチームでの研究、多言語でのコミュニケーションを強みとしており、異なる分野・文化・研究環境の間で円滑に仕事を進めることができます。"
+
+# ソーシャルリンク
+socialLinks:
+- name: メール
+  icon: "fas fa-envelope"
+  url: "ty981126@gmail.com"
+
+- name: GitHub
+  icon: "fab fa-github"
+  url: "https://github.com/TYunosuke"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/yu-tang-057004362/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://x.com/TYunosuke_"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/profile.php?id=61555653784195"
+
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/tyunosuke/"
+
+# 関連資料へのリンク
+resourceLinks:
+- title: "履歴書"
+  url: "files/resume.pdf"
+
+# バッジ
+badges:
+- type: certification
+  name: 日本語能力試験 N1
+  url: "https://www.jlpt.jp/about/index.html"
+  badge: "/images/jlpt_badge.png"
+
+- type: soft-skill-indicator
+  name: 中国語
+  percentage: 100
+  color: yellow
+
+- type: soft-skill-indicator
+  name: 英語
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: 日本語
+  percentage: 90
+  color: orange

@@ -1,0 +1,56 @@
+# 板块信息
+section:
+  name: 论文
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+
+# 筛选按钮
+buttons:
+- name: 全部
+  filter: "all"
+- name: 机器人操作
+  filter: "robotics"
+- name: 计算机视觉
+  filter: "computer-vision"
+
+# 论文
+publications:
+- title: Robotic Test Tube Rearrangement Using Combined Reinforcement Learning and Motion Planning in a Closed Loop
+  publishedIn:
+    name: The International Journal of Robotics Research (IJRR)
+    date: 2026年3月
+    url: "https://journals.sagepub.com/home/ijr"
+  authors:
+  - name: Hao Chen
+  - name: Yu Tang
+  - name: Weiwei Wan
+  - name: Masaki Matsushita
+  - name: Jun Takahashi
+  - name: Takeyuki Kotaka
+  - name: Kensuke Harada
+  paper:
+    summary: "针对多类别试管在试管架内的重排问题，提出了一种结合强化学习（RL）与运动规划的框架。RL 在任务层规划交换动作的序列，运动规划则据此在动作层生成机械臂的抓取放置动作。两者通过为每个架孔维护的条件集合在闭环中耦合，从而在出现失败时能够高效地重新规划。RL 部分采用分布式深度 Q 学习与 Dueling Double DQN（D3QN），并用基于 A* 的后处理来扩充和整理训练数据，提高了训练效率和数据的有效性。仿真与真实实验验证了 RL 和后处理的优势，并表明闭环结合提升了系统的鲁棒性。"
+    url: "https://journals.sagepub.com/doi/10.1177/02783649261430363"
+  categories: ["robotics"]
+  tags: ["强化学习", "运动规划", "机器人操作"]
+
+- title: Zero-Shot Recognition of Test Tube Types by Automatically Collecting and Labeling RGB Data
+  publishedIn:
+    name: IEEE Robotics and Automation Letters (RA-L), vol. 10, no. 8, pp. 8276-8283（于 ICRA 2026 展示）
+    date: 2025年8月
+    url: "https://www.ieee-ras.org/publications/ra-l"
+  authors:
+  - name: Yu Tang
+  - name: Weiwei Wan
+  - name: Hao Chen
+  - name: Masaki Matsushita
+  - name: Jun Takahashi
+  - name: Takeyuki Kotaka
+  - name: Kensuke Harada
+  paper:
+    summary: "提出了一种零样本流程，用于自动检测和识别实验室试管架中试管的类型。该方法将架孔占用预测、自动分割、聚类和标注结合起来，无需人工准备训练数据集。神经网络预测架孔的占用情况，基于 SAM2 的分割和 HDBSCAN 聚类实现试管盖的自动分类。系统在遇到新的试管类型时会逐步扩充识别库，从而在没有显式训练数据的情况下实现灵活的机器人操作。基于 RealSense D405 相机和 UFactory xArm Lite6 机械臂的实验表明，系统在真实实验室环境中表现稳健。"
+    url: "https://ieeexplore.ieee.org/document/11067950"
+  categories: ["robotics", "computer-vision"]
+  tags: ["试管检测", "机器人操作", "深度学习"]
