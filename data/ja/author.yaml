@@ -1,7 +1,7 @@
 # 基本情報
-name: "唐 羽"
+name: "唐 羽（タン ユウ）"
 # テンプレートは「greeting + nickname」の順で表示するため、nickname に「です」を含めています
-nickname: "唐 羽です"
+nickname: "唐 羽（タン ユウ）です"
 
 # 名前の前に表示される挨拶
 greeting: "はじめまして、"

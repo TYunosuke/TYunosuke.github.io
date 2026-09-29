@@ -2,12 +2,12 @@
 copyright: © 2026 唐 羽
 
 # サイトの説明（検索エンジン向け）
-description: 大阪大学の博士課程でロボティクス・コンピュータビジョン・AI を研究している唐 羽（Yu Tang）の個人ホームページです。
+description: 大阪大学の博士課程でロボティクス・コンピュータビジョン・AI を研究している唐 羽（タン ユウ / Yu Tang）の個人ホームページです。
 
 # OpenGraph 設定
 openGraph:
   title: 唐 羽 | ホームページ
   type: website
-  description: 大阪大学の博士課程でロボティクス・コンピュータビジョン・AI を研究している唐 羽（Yu Tang）の個人ホームページです。
+  description: 大阪大学の博士課程でロボティクス・コンピュータビジョン・AI を研究している唐 羽（タン ユウ / Yu Tang）の個人ホームページです。
   image: images/author/Yu Tang.png
   url: https://tyunosuke.github.io/ja/
